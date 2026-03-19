@@ -30,7 +30,7 @@ class InnerBoundary extends React.Component {
     }
     return this.props.children;
   }
-}
+} 
 
 const ErrorBoundary = ({ children }) => <InnerBoundary>{children}</InnerBoundary>;
 

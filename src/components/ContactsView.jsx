@@ -17,7 +17,7 @@ const ContactsView = () => {
     );
   }, [contacts, searchTerm]);
 
-  const handleAddContact = () => navigate('/add');
+  const handleAddContact = () => navigate('/add'); 
 
   return (
     <div className="flex flex-col h-full bg-black relative p-4 rounded-lg">

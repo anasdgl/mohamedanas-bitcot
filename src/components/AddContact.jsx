@@ -18,6 +18,6 @@ const AddContact = () => {
       onSubmit={handleSubmit} 
     />
   );
-};
+}; 
 
 export default AddContact;

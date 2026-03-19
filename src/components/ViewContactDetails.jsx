@@ -15,7 +15,7 @@ const ViewContactDetails = () => {
       navigate('/');
     }
   }, [loading, contact, navigate]);
-
+ 
   if (!contact) return null;
 
   const handleClose = () => navigate('/');
